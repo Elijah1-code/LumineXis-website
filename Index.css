@@ -129,6 +129,8 @@ section {
    /*  background: linear-gradient(45deg, rgb(148, 227, 241), rgb(85, 164, 218)); */
    background-image: linear-gradient(rgba(59, 206, 226, 0.171), rgba(101, 114, 148, 0.75)), url(pictures/ChatGPT.jpg);
    background-size: cover;
+   max-width: 100%;
+   height: auto;
    background-position: center;
    color: var(--white-color);
 }
@@ -206,7 +208,7 @@ span {
     color: var(--main-color);
     border-color: var(--main-color);
 }
-.about {
+/* .about {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -225,7 +227,7 @@ span {
 .about-content p{
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
-}
+} */
 .services{
     min-height: auto;
     padding: 9rem;
@@ -524,42 +526,45 @@ span {
   }
   
 .front1 {
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
         to top right,
-        rgba(89, 82, 82, 0.57),
-        rgba(230, 157, 157, 0.576)
+        rgba(59, 206, 226, 0), rgba(101, 114, 148, 0.664)
       ),
-      url(../Pictures/image2.jpg);
+      url(pictures/Dev.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background: linear-gradient(45deg, rgba(32, 98, 107, 0.527), rgb(101, 114, 148));
     color: white;
+    padding: 50px 20px;
   }
   
   .front2 {
-    background-image: linear-gradient(
+   /*  background-image: linear-gradient(
         to top right,
-        rgba(184, 93, 93, 0.611),
-        rgba(65, 146, 192, 0.679)
+        rgba(59, 206, 226, 0.089), rgba(101, 114, 148, 0.75)
       ),
-      url(../Pictures/image14.jpg);
+      url(pictures/Secure.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background: linear-gradient(45deg, rgba(32, 98, 107, 0.527), rgb(101, 114, 148));
     color: white;
+    padding: 50px 20px;
   }
   
   .front3 {
-    background-image: linear-gradient(
+   /*  background-image: linear-gradient(
         to top right,
-        rgba(139, 104, 151, 0.445),
-        rgba(114, 86, 86, 0.576)
+        rgba(59, 206, 226, 0.322), rgba(101, 114, 148, 0.842)
       ),
-      url(../Pictures/image19.jpg);
+      url(pictures/Application.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+    background-size: cover; */
+    background: linear-gradient(45deg, rgba(32, 98, 107, 0.527), rgb(101, 114, 148));
+    color: #fff;
+    padding: 50px 20px;
   }
   
   .flip-card-back {
@@ -584,7 +589,7 @@ span {
   }
   
   .flip-card-back a:hover {
-    background-color: brown;
+    background-color: var(--main-color);
     color: white;
     font-weight: bolder;
     border: white;
@@ -640,16 +645,6 @@ span {
     html {
         font-size: 55%;
     }
-    .profession-container{
-        height: 85.8rem;
-    }
-    .profession-box{
-        right: -12rem;
-        height: 85.8rem;
-    }
-    .overlay{
-        right: -9rem;
-    }
 }
 @media (max-width:1024px) {
     .header{
@@ -657,12 +652,6 @@ span {
     }
     section{
         padding: 10rem 3% 2rem;
-    }
-    .profession-box{
-        right: -22rem;
-    }
-    .overlay{
-        right: -15rem;
     }
 }
 @media (max-width:991px) {
@@ -710,29 +699,7 @@ span {
     .social-media a{
         margin: 2.5rem .75rem 3rem;
     }
-    .profession-container{
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-    .profession-box{
-        position: fixed;
-        top: 60%;
-        left: 0;
-        border-radius: 0;
-        width: 100%;
-    }
-    .profession{
-        padding: 0 13px;
-        left: auto;
-        transform-origin: 0;
-    }
-    .circle{
-        position: fixed;
-        width: 670px;
-        height: 670px;
-        z-index: -1;
-    }
+    
     .about{
         flex-direction: column-reverse;
         text-align: center;
