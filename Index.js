@@ -41,6 +41,6 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.about-img img, .services-container, .team-box, .testimonial-wrapper, .faq-list, .news-container, .contact form', { origin: 'bottom' });
-ScrollReveal().reveal('.home-content h1, .about-img img', { origin: 'left' });
-ScrollReveal().reveal('.home-content h3, .home-content p, .about-content', { origin: 'right' });
+ScrollReveal().reveal('.about-img img, .services-container, .team-box, .testimonial-wrapper, .faq-list, .news-container, .contact form, .Enrollment', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1, .about-2', { origin: 'left' });
+ScrollReveal().reveal('.home-content h3, .home-content p, .about-1', { origin: 'right' });
